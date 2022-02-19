@@ -1,0 +1,10 @@
+---
+  environment:
+    - staging
+    - production
+  browser:
+    - chromium
+    - firefox
+    - webkit
+  devices:
+    - Desktop
