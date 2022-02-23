@@ -1,5 +1,5 @@
 // import {config} from "./playwright.config.js";
-// import {Config, Global} from "jest/types";
+//import {Config, Global} from "jest/types";
 //import {AssertionResult, TestResult} from "jest/test-result";
 //import {Global} from 'jest/types';
 import  path  from "path"

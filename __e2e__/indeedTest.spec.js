@@ -1,7 +1,13 @@
-import { expect } from "@playwright/test";
-import { chromium } from "playwright";
+//import { expect } from "@playwright/test";
+//import { chromium } from "playwright";
+import {test,expect}  from "@playwright/test"
 
-describe('Indded job search', () => {
+test.beforeAll(async({ page })=> {
+  await page.goto('https://www.amazon.com/');
+
+});
+
+describe('Indeed job search', () => {
 
   test('Login Page', async({ page }) => { 
       const browser = await chromium.launch({
